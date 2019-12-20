@@ -29,7 +29,8 @@ li.lad{
 }
 /*espacio entre los iconos*/
 i{
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
 }
 /*posicionamiento del elemento ul que contiene los elemenots li*/
 .tip1{
@@ -44,4 +45,137 @@ header{
 a{
     color: black;
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+/*posicionamiento del titulo*/
+.pe{
+    text-align: center;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    margin-top: 25px;
+}
+/* la magia del menu desplegable*/
+.menu{
+    position: relative;
+    display: inline-block;
+}
+.menu-contenido{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    min-width: 160px;
+    background-color: rgba(255, 255, 255, 0.849);
+}
+.menu:hover .menu-contenido{
+    display: block;
+}
+.menu-contenido a {
+    color: black;
+    padding: 9px 1px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+  }
+.menu-contenido a:hover{
+    color: #e59f80;
+    transition: all 1s;
+}
+span.hq{
+    margin-left: 35px;
+    font-size: larger;
+    cursor: pointer;
+}
+.hq:hover{
+    color: #e59f80;
+    transition: all 1s;
+}
+.hq a:hover{
+    color: #e59f80;
+    transition: all 1s;
+}
+/*la imagen debajo de los menus*/
+.col1{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: 6%;
+    margin-top: 20px;
+}
+.imgg{
+    max-width: 100%;
+    height: auto;
+}
+.ld{
+    display: table-cell;
+}
+/*la posicion del nav*/
+.top{
+    margin-top: 20px;
+}
+/* cuadro de contacto*/
+.cucon{
+    height: 100%;
+    width: 70%;
+    z-index: 3;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: 2px 2px 10px #666;
+    padding: 0.2% 0% 4% 0%;
+    margin-top: 3%;
+}
+/*input de nombre y email*/
+.int{
+    padding: 12px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+/*mensaje*/
+.int2{
+    margin-top: 20px;
+    width: 37%;
+    padding: 12px 12px 12% 12px;
+}
+/* boton enviar*/
+.sub{
+    padding: 10px;
+    width: 11%;
+    border-radius: 5px;
+    border: 2px solid #666;
+    margin-top: 20px;
+}
+.deco{
+    display: table-cell;
+    list-style: none;
+}
+.none{
+    list-style: none;
+}
+/*animacion de los botones*/
+.sub:hover{
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+.int:focus{
+    border: 3px solid #e59f80;
+    transition: all 1s;
+}
+.int2:focus{
+    border: 3px solid #e59f80;
+    transition: all 1s;
+}
+/*cuadro dos del div*/
+.dis{
+    position: relative;
+    z-index: 2; 
+    float:right; 
+    margin-top: -38%;
+}
+.none1{
+    list-style: none;
+    margin-top: 15%;
 }

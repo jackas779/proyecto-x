@@ -5,23 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+    <script src="https://kit.fontawesome.com/10d6bcba2b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
-    <!--div que contendra la barra de busqueda -->
-    <div >
-        <input class="bc" type="text" placeholder="Buscar">
-        <i class="fas fa-search buscar"></i>
-    <div>
-    <section>
-        <!-- un nav que contrenda los enlaces e iconos para las redes sociales(en caso de tenerlas)-->
-        <nav>
-            <ul class="tip1">
+    <header>
+        <!-- div que contendra la barra de busqueda -->
+        <div >
+            <input class="bc" type="text" placeholder="Buscar">
+            <i class="fas fa-search buscar"></i>
+        <div>
+        <section>
+            <!-- un nav que contrenda los enlaces e iconos para las redes sociales(en caso de tenerlas)-->
+            <nav>
+                <ul class="tip1">
+                    <li  class="lad"><a href="https://www.facebook.com/" target="_balnk" ><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="lad" ><a href="https://twitter.com/login?lang=es" target="_balnk" ><i class="fab fa-twitter"></i></li></a>
+                    <li class="lad" ><a href="https://www.instagram.com/?hl=es-la" target="_balnk" ><i class="fab fa-instagram"></i></li></a>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <!--titulo central de la pagina (de igual forma tiene un link)-->
+    <div class="pe">
+        <p><a href="https://animeflv.net/" target="_blank"><h1>ANIMES</h1></a></p>
+    </div>
+    <!--el siguiente div contendra todos los menu desplegables-->
+    <div style="text-align: center; margin-top: 20px;" >
+    <div class="menu">
+        <!--Nombre que mostrara el menu desplegable-->
+        <span class="hq">Animes &dArr; </span>
+        <!--aqui esta el contenido del menu se repite con cada menu, de igual forma cada todo el contenido redirige hacia otra pagina-->
+        <div class="menu-contenido">
+            <a href="https://animeflv.net/anime/5664/psychopass-3" target="_blank" rel="noopener noreferrer">
+             psychopass-3</a>
+            <a href="https://animeflv.net/anime/5656/shokugeki-no-souma-shin-no-sara" target="_blank" rel="noopener noreferrer">
+             shokugeki-no-souma-shin-no-sara</a>
+            <a href="https://animeflv.net/anime/5659/boku-no-hero-academia-4th-season" target="_blank" rel="noopener noreferrer">
+             boku-no-hero-academia-4th-season</a>
+            <a href="https://animeflv.net/anime/5601/vinland-saga" target="_blank" rel="noopener noreferrer">
+               vinland-saga</a>
+        </div>
+    </div>
+    <div class="menu">
+        <!--menu 2-->
+        <span class="hq">Mangas &dArr;</span>
+        <div class="menu-contenido">
+            <a href="https://tmofans.com/library/manhwa/41512/solo-leveling" target="_blank" >solo-leveling</a>
+            <a href="https://tmofans.com/library/manga/15125/kimetsu-no-yaiba" target="_blank">kimetsu-no-yaiba</a>
+            <a href="https://tmofans.com/library/manhwa/40997/her-summon" target="_blank">her-summon</a>
+            <a href="https://tmofans.com/library/manga/8408/Hakaijuu" target="_blank">Hakaijuu</a>
+        </div>
+    </div>
+    <div class="menu">
+        <!--menu 3-->
+        <span class="hq">Manhwas &dArr;</span>
+        <div class="menu-contenido">
+        <a href="https://tmofans.com/library/manhwa/38420/el-chico-del-diablo" target="_blank">el-chico-del-diablo</a>
+        <a href="https://tmofans.com/library/manhwa/10319/el-legendario-escultor-de-la-luz-lunar" target="_blank">el-legendario-escultor-de-la-luz-lunar</a>
+        <a href="https://tmofans.com/library/manhua/36401/hero-i-quit-a-long-time-ago" target="_blank">hero-i-quit-a-long-time-ago</a>
+        <a href="https://tmofans.com/library/manhwa/41571/la-magia-de-un-retornado-debe-ser-especial" target="_blank">la-magia-de-un-retornado-debe-ser-especial</a>
+        </div>
+    </div>
+    <div class="menu">
+        <span class="hq"><a href="#" target="_blank">Contacto</a></span>
+    </div>
+    </div>
+    <div class="col1">
+        <img class="imgg" src="img/breadcrumb-line.png" alt="no responsiva">
+        <nav class="top">
+            <ol>
+                <li class="ld"><i class="fas fa-home"></i><a href="index.html">Home</a></li class="ld">
+                <li class="ld"><i class="fas fa-chevron-right"></i>Contacto</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="cucon">
+        <div style="position: relative; z-index: 2;">
+            <ul style="margin-top: 5%;margin-left: 6%;">
+            <li class="none"><h3>Estar en contacto</h3></li class="none">
+            <li class="deco"><input class="int" type="text" placeholder="Nombre"></li>
+            <li class="deco"><input class="int" type="text" placeholder="Email" ></li>
+            <li class="none"><input class="int2" type="text" placeholder="Mensaje"></li>
+            <li class="none"><input class="sub" type="submit" value="Enviar"></li>
+            </ul>
+        </div>
+        <div class="dis">
+            <ul style="margin-left: -120%;">
+                <li class="none1"><h3>Información</h3></li>
+                <li class="none1"><i class="fas fa-map-marker-alt"></i>Cll 71 sur #104-41</li>
+                <li class="none1"><i class="fas fa-phone"></i>(+57) 300-640-4256 </li>
+                <li class="none1"><i class="fas fa-mail-bulk"></i>jackas779@gmail.com</li>
+            </ul>
+            <ul>
                 <li  class="lad"><a href="https://www.facebook.com/" target="_balnk" ><i class="fab fa-facebook-f"></i></a></li>
                 <li class="lad" ><a href="https://twitter.com/login?lang=es" target="_balnk" ><i class="fab fa-twitter"></i></li></a>
                 <li class="lad" ><a href="https://www.instagram.com/?hl=es-la" target="_balnk" ><i class="fab fa-instagram"></i></li></a>
             </ul>
-        </nav>
-    </section>
-</header>
+        </div>
+    </div>
+    <div class="col1">
+        <img class="imgg" src="img/breadcrumb-line.png" alt="no responsiva">
+    </div>
 </body>
 </html>
