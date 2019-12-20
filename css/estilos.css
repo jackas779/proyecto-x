@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* cambio de color de los iconos*/
 li:hover i{
     color: #e59f80;
@@ -49,11 +50,12 @@ a{
 .pe{
     text-align: center;
 }
-h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 45px;
-    margin-top: 25px;
+.titul{
+    max-height: 40%;
+    margin-top: 3%;
+    width: 34%;
 }
+
 /* la magia del menu desplegable*/
 .menu{
     position: relative;
